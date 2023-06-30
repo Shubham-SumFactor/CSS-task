@@ -1,0 +1,61 @@
+.navbar{
+    /* background-color: black; */
+    height: 108px;
+    color: black;
+    position: relative;
+}
+
+.navbar li{
+    color: black;
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 25px 0 0 0;
+    
+}
+
+.navbar ul{
+    height: 26px;
+    width: 50px;
+    overflow: auto;
+    display: inline;
+    font-family: "Causten";
+    src: url('./static/fonts/Causten-Regular.otf') format('truetype');
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    float: left;
+    padding: 0px 10px;
+    width: 91.16458892822266px;
+    height: 45px;
+    margin: 20px 20px 10px 80px;
+}
+input.search{
+    width: 267px;
+    height: Hug(44px);
+    left: 738px;
+    padding: 12px 12px 12px 20px;
+    border-radius: 8px;
+    gap: 2px;
+    /* margin: 5px 60px */
+}
+
+img.main{
+width: 1449px;
+height: 716px;
+/* padding: 380px 1378px 316px 51px; */
+border-radius: 5px;
+border: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
