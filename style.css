@@ -1,61 +1,171 @@
-.navbar{
-    /* background-color: black; */
-    height: 108px;
-    color: black;
-    position: relative;
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar li{
-    color: black;
-    float: left;
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.navbar-logo img {
+    max-width: 100px;
+    height: auto;
+        margin: 0 0 0 90px;
+}
+
+.navbar-links {
     list-style: none;
-    padding: 10px 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-right: 10px;
+}
+
+.navbar-links li a {
     text-decoration: none;
-    margin: 25px 0 0 0;
+    color: #000;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons .search {
+    padding: 5px;
+    /* background: #F6F6F6; */
+
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none; /* Remove the default bullet points */
+     border-radius: 8px;
+     background: #F6F6F6;
+     margin: 0 10px 0 0;
+  
+}
+
+/* Container styles */
+.banner {
+    width: 1448px;
+    height: 716px;
+    border-radius: 5px;
+    border: 1px;
+    gap: 30px;
+    position: relative;
     
 }
 
-.navbar ul{
-    height: 26px;
-    width: 50px;
-    overflow: auto;
-    display: inline;
-    font-family: "Causten";
-    src: url('./static/fonts/Causten-Regular.otf') format('truetype');
+.banner img {
+    max-width: 100%;
+    height: auto;
+    /* display: block;
+    margin: 0 auto; */
 }
 
-.navbar a{
-    text-decoration: none;
-    color: black;
-}
-
-img{
-    float: left;
-    padding: 0px 10px;
-    width: 91.16458892822266px;
-    height: 45px;
-    margin: 20px 20px 10px 80px;
-}
-input.search{
-    width: 267px;
-    height: Hug(44px);
-    left: 738px;
-    padding: 12px 12px 12px 20px;
-    border-radius: 8px;
-    gap: 2px;
-    /* margin: 5px 60px */
-}
-
-img.main{
-width: 1449px;
-height: 716px;
-/* padding: 380px 1378px 316px 51px; */
-border-radius: 5px;
-border: 1px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
+.icon {
+    
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
   }
+  
+  .left-icon {
+    left: 40px;
+  }
+  
+  .right-icon {
+    left: 1381px;
+  }
+
+  @media (max-width: 768px) {
+    .left-icon,
+    .right-icon {
+        display: none;
+    }
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 193px;
+    transform: translate(10%, -50%);
+    color: white;
+}
+
+
+#header-tag {
+    /* tops n tshirt */
+    font-family: Core Sans C;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37.77px;
+    letter-spacing: 0.16px;
+    text-align: left;
+}
+
+.banner-headline {
+    /* summer value pack */
+    font-family: Core Sans C;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 93.62px;
+    letter-spacing: 0.31px;
+    text-align: left;
+    display: inline-block;
+}
+
+.line1, .line2 {
+    display: block;
+}
+
+.banner-headline br {
+    display: none;
+}
+
+
+.banner-sub-headline {
+    font-family: Core Sans C;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47.21px;
+    letter-spacing: 0.31px;
+    top: 306px;
+}
+
+.shopnowBtn {
+    height: 61px;
+    width: 250px;
+    top: 394px;
+    background:#FFFFFF;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    gap: 12px;  
+    padding: 16px 72px;
+}
+
+/* DEALS SECTION  */
+
 
