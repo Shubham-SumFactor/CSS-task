@@ -8,31 +8,85 @@
     <script src="https://kit.fontawesome.com/7904e07acb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
+    <header>
         <nav class="navbar">
-            <img src="./static/images/Logo.png">
-            <ul>
+            <div class="navbar-logo">
+                <img src="./static/images/Logo.png" alt="logo">
+            </div>
+            <ul class="navbar-links">
                 <li><a  href="#" style="font-weight:bolder;">Shop</a></li>
                 <li><a  href="#">Men</a></li>
                 <li><a  href="#">Women</a></li>
                 <li><a  href="#">Combos</a></li>
                 <li><a  href="#">Joggers</a></li>
+            </ul>
 
-              <li>  <form action="/search" method="get">
+            <div class="navbar-icons">
+               <form action="/search" method="get">
                     <input class="search" type="text" name="search" placeholder="Search...">
-                  </form>
-                </li>
-                 
-                <li> <i class="fa-regular fa-heart"></i></li> 
+                </form>
+            </div>
+
+            <div class="icons">  
+                <li><i class="fa-regular fa-heart"></i></li> 
                 <li><i class="fa-regular fa-user"></i></li>
                 <li><i class="fa-regular fa-cart-shopping"></i></li>
-        
-                </ul>
+            </div>
+               
         </nav>
+    </header>
+
+    <div class="banner">
+        <img src="./static/images/mainpic.jpg">
+       
+        <div class="icon right-icon">
+            <img src="./static/icons/ChevronRight.svg" alt="Favorite">
+        </div>
+
+       
+        <div class="icon left-icon">
+            <img src="./static/icons/ChevronLeft.svg" alt="Favorite">
+        </div>
+
+        <div class="banner-text">
+            <h5 id="header-tag">T-shirt / Tops</h5>
+            <h1 class="banner-headline">
+                <span class="line1">Summer</span><br>
+                <span class="line2">Value Pack</span>
+            </h1>
+
+            <h4 class="banner-sub-headline">
+                cool / colorful / comfy
+            </h4>
+            <button class="shopnowBtn">Shop Now</button>
+
+        </div>
     </div>
 
-    <div class="container">
-        <img src="./static/images/mainpic.jpg" class="main">
-    </div>
+
+     <!-- deals start -->
+     <section id="deals">
+        
+        <div class="high-coziness">
+            <img src="./static/images/unsplash_Qyc13QBGaM4.jpg" alt="high-coziness">
+            <div class="deals-text-1">
+                <h6 class="deals_tag">Low Price</h6>
+                <h2>High Coziness</h2>
+                <h3>UPTO 50 % OFF</h3>
+                <h6 style="border-bottom: 1px solid white;">Explore Items</h6>
+            </div>
+            <div class="breezy-summer-style">
+                <img src="./static/images/unsplash_Qyc13QBGaM4 (1).jpg" alt="breezy-summer-style">
+                <div class="deals-text-1">
+                    <h6 class="deals_tag">Beyoung Presents</h6>
+                    <h2>Breezy Summer
+                        Style</h2>
+                        <h3>UPTO 50% OFF</h3>
+                        <h6 style="border-bottom: 1px solid white;">Explore Items</h6>
+                </div>
+            </div>
+        </section>
+
+        </div>
 </body>
 </html>
