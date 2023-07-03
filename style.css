@@ -109,7 +109,7 @@ body, html {
     color: white;
 }
 
-
+/* Deals */
 #header-tag {
     /* tops n tshirt */
     font-family: Core Sans C;
@@ -125,7 +125,7 @@ body, html {
     font-family: Core Sans C;
     font-weight: 800;
     font-size: 78px;
-    line-height: 93.62px;
+    line-height: 73.62px;
     letter-spacing: 0.31px;
     text-align: left;
     display: inline-block;
@@ -213,36 +213,35 @@ body, html {
     margin: auto;
     display: flex;
     max-width: 77.41163rem;
-
- flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 4.375rem;
-border: 1px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4.375rem;
+    border: 1px solid red;
 }
 .newArrival_head{
     display: flex;
     align-items: flex-start;
-gap: 1.25rem;
+    gap: 1.25rem;
 }
 .newArrival_head>p{
     color: #3C4242;
-font-size: 2.125rem;
-font-family: Core Sans C;
-font-style: normal;
-font-weight: 600;
-line-height: 2.09375rem;
-letter-spacing: 0.0425rem;
+    font-size: 2.125rem;
+    font-family: Core Sans C;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.09375rem;
+    letter-spacing: 0.0425rem;
 }
 .rectangle{
     width: 0.375rem;
-height: 1.875rem;
-flex-shrink: 0;
-border-radius: 0.625rem;
-background: #8A33FD;
+    height: 1.875rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #8A33FD;
 }
 
-  .frame{
+.frame{
     position: relative;
     border: 1px solid blue;
     width: 100%;
@@ -260,6 +259,90 @@ background: #8A33FD;
    
 }
 
+
+
+/* Big saving Zone */
+
+.big-saving-zone{
+    width: 1240px;
+    height: 908px;
+    margin: 0 auto;
+    border: red;
+    position: absolute;
+}
+
+.frame {
+    margin-top: 50px; /* Adjust this value as needed */
+}
+
+.rectangle21{
+    margin-top: 50px;
+}
+
+.heading-bsz{
+    margin-left: 90px;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.frame-img-bottom {
+    position: relative;
+}
+
+#we-made-section-button {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Categories for men */
+
+.heading-cfm{
+    margin-left: 90px;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* .card{
+    margin-left: 30px;
+    padding: 20px;
+} */
+
+#categories-for-men{
+    width: 1240px;
+    height: 908px;
+    margin: 0 auto; 
+    border: red;
+    position: absolute;
+}
+
+.cfm-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 55px;
+}
+
+.card {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
 
  
 
