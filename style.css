@@ -578,42 +578,70 @@ body, html {
     /* color: #7F7F7F; */
 }
 /*  */
-/* #top-brands-deal { */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* background-color: #323232; */
-    /* padding: 20px; */
-    /* width: 100% ; */
-  /* } */
-  /*  */
-  /* .top-brands-deal-heading { */
-    /* margin-top: 20px; */
-    /* color: #fff; */
-  /* } */
-  /*  */
-  /* .top-brands-deal-text { */
-    /* margin-top: 10px; */
-    /* color: #fff; */
-  /* } */
-  /*  */
-  /* .brands-deal { */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* margin-top: 20px; */
-  /* } */
-  /*  */
-  /* .brand-logo { */
-    /* margin: 10px; */
-  /* } */
-  /*  */
-  /* .brand-logo img { */
-    /* max-width: 100px; */
-  /* } */
-  /*  */
-/*  */
+/* TOP BRANDS DEAL */
+
+#top-brands-deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #323232;
+    padding: 20px;
+    width:  1234px;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  
+  .top-brands-deal-heading {
+    height: 49px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    /* color: #FFFFFF; */
+    /* margin-top: 30px; */
+    margin-top: 20px;
+     color: #fff;
+  }
+  
+.top-brands-deal-text {
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    width: 1234px
+  }
+  
+  .brands-deal {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .brand-logo {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+    height: 86px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin: 0 12px;
+  }
+  
+  .brand-logo img {
+    max-width: 100px;
+  }
+  
+
 /* LimeLight */
 /*  */
 /* .content-wrapper { */
