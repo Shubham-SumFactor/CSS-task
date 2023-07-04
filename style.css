@@ -369,8 +369,58 @@ body, html {
       line-height: 2.09375rem;
       letter-spacing: 0.0425rem;
 }
+/* we made your everyday  */
+#we_made_your_everyday{
+  width: 1240px;
+  height: 640px;
+  display: flex;
+  margin:auto;
+  left: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+.frame-396{
+  width: 100%;
+  display: flex;
+}
+.frame-396>img{
+  width: 614px;
+  height: 640px;
+  
+}
 
+.we_made_your_everyday_image{
+  position: relative;
+}
+.we_made_your_everyday_content{
+    width: 466px;
+    position: absolute;
+    top: 300px;
+    transform: translate(10%, -50%);
+    line-height: 30.07px;
+    color: #ccc;
+    /* text-align: center; */
+}
 
+#we_made_your_everyday_btn{
+  /* border-radius: 8px; */
+  /* background: #FFFFFF; */
+  font-size: 12px;
+  font-weight: lighter;
+  /* line-height: 22px; */
+  /* letter-spacing: 0em; */
+  text-align: center;
+  font-family: Causten;
+  /* padding: 5px; */
+  width: Hug (168px);
+  height: Hug (46px);
+  top: 236px;
+  padding: 12px 44px 12px 44px;
+  border-radius: 8px;
+  gap: 12px;
+
+}
 
 /* Categories for men */
 /*  */
