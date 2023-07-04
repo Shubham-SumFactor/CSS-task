@@ -437,7 +437,7 @@ body, html {
      gap: 4.375rem;
      /* border: 1px solid red; */
      margin: auto;
-     margin-top: 100px;
+     margin-top: 20px;
      max-width: 77.4375rem;
 }
 
@@ -515,38 +515,68 @@ body, html {
 
 
 /* Category for women */
-
-/* #categories-for-women{ */
+#categories-for-women {
+  display: flex;
     /* width: 1240px; */
     /* height: 908px; */
-    /* height: 3000px; */
-    /* margin: 0 auto;  */
-    /* border: red; */
-    /* position: absolute; */
-/* } */
-/*  */
-/* .cfw-wrapper { */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between;#categories-for-men{ */
-        /* width: 1240px; */
-        /* height: 908px; */
-        /* margin: 0 auto;  */
-        /* border: red; */
-        /* position: absolute; */
-    /* } */
-    /*  */
-    /* .cfm-wrapper { */
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* justify-content: space-between; */
-        /* margin-left: 55px; */
-    /* } */
-    /* margin-left: 55px; */
-/* } */
-/*  */
- /*  */
-/* Top brands deal section */
+    margin: 0 auto; 
+    /* border: red;
+    position: absolute; */
+    flex-direction: column;
+    justify-content: center;
+     gap: 4.375rem;
+     /* border: 1px solid red; */
+     margin: auto;
+     margin-top: 100px;
+     max-width: 77.4375rem;
+}
+
+.categories-for-women-heading{
+    margin-left: 90px;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.women-section-text-div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -40px;
+}
+
+.heading-cfw{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  color: #3C4242;
+  font-size: 25px;
+  font-family: Core Sans C;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.09375rem;
+  letter-spacing: 0.0425rem;
+  margin-top: -23px;
+  margin-bottom: -65px;
+}
+
+.women-section-heading{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+.women-section-text{
+  font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    text-align: left;
+    /* color: #7F7F7F; */
+}
 /*  */
 /* #top-brands-deal { */
     /* display: flex; */
