@@ -822,4 +822,252 @@ text-align: left;
 
 /* Footer section */
 /*  */
-/*  */
+.footer-wrapper{
+  /* border: 1px solid red ; */
+  width: 1235px;
+  height: 900px;
+  background: #3C4242;
+  margin-left: 50px;
+}
+.frame-127{
+width: 1235px;
+height: 800px;
+top: 59px;
+left: 110px;
+/* border: 1px solid red ; */
+margin-left: 40px;
+}
+
+.frame-123{
+  width: 1059px;
+height: 305px;
+left: 76px;
+/* border: 1px solid red; */
+margin-left: 150px;
+display: flex;
+}
+
+.copyright-text{
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.frame-119{
+  width: 142px;
+  height: 305px;
+  /* top: 20px; */
+  /* border: 1px solid green; */
+  color: #F6F6F6;
+  margin-right: 50px;
+}
+
+.frame-119>p{
+  font-family: Causten;
+font-size: 29px;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.frame-115{
+  /* width: 142px;
+  height: 215px; */
+  /* top: 77px; */
+font-family: Causten;
+font-size: 18px;
+font-weight: 500;
+font-weight: lighter;
+/* line-height: 39px; */
+letter-spacing: 0em;
+text-align: left;  
+}
+
+.frame-120{
+  font-family: Causten;
+/* font-size: 29px; */
+font-weight: 700;
+/* line-height: 62px; */
+letter-spacing: 0em;
+text-align: left;
+width: 142px;
+height: 305px;
+/* top: 20px; */
+/* border: 1px solid green; */
+color: #F6F6F6;
+margin-right: 50px;
+
+
+}
+
+.frame-120>p{
+  font-family: Causten;
+font-size: 29px;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.frame-121{
+  font-family: Causten;
+/* font-size: 29px; */
+font-weight: 700;
+/* line-height: 62px; */
+letter-spacing: 0em;
+text-align: left;
+width: 142px;
+height: 305px;
+/* top: 20px; */
+/* border: 1px solid green; */
+color: #F6F6F6;
+margin-right: 50px;
+
+}
+
+.frame-121>p{
+  font-family: Causten;
+font-size: 29px;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;}
+
+.frame-116{
+  /* width: 142px;
+  height: 215px; */
+  /* top: 77px; */
+font-family: Causten;
+font-size: 18px;
+font-weight: 500;
+font-weight: lighter;
+/* line-height: 39px; */
+letter-spacing: 0em;
+text-align: left; }
+
+.frame-117{
+  /* width: 142px;
+  height: 215px; */
+  /* top: 77px; */
+font-family: Causten;
+font-size: 18px;
+font-weight: 500;
+font-weight: lighter;
+/* line-height: 39px; */
+letter-spacing: 0em;
+text-align: left; }
+
+.frame-122{
+  font-family: Causten;
+/* font-size: 29px; */
+font-weight: 700;
+/* line-height: 62px; */
+letter-spacing: 0em;
+text-align: left;
+width: 142px;
+height: 305px;
+/* top: 20px; */
+/* border: 1px solid green; */
+color: #F6F6F6;
+margin-right: 50px;
+}
+
+.frame-122>p{
+  font-family: Causten;
+font-size: 29px;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;}
+
+.frame-118{
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 500;
+  font-weight: lighter;
+  /* line-height: 39px; */
+  /* letter-spacing: 0em; */
+  /* text-align: left;  */
+  width: 276px;
+/* margin-top: 81px; */
+}
+  
+
+.frame-18 {
+  /* display: flex; */
+  width: 200px;
+height: 60.02399826049805px;
+border-radius: 10.680000305175781px;
+margin-left: 140px;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 20px 0; */
+  /* border: 1px solid aqua; */
+  padding: 5px;
+  /* gap: 5px; */
+}
+
+.download-the-app h3 {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #F6F6F6;
+  margin-right: 157px;
+}
+
+.frame-19 {
+  /* display: flex; */
+  width: 400px;
+height: 60.02399826049805px;
+border-radius: 10.1px;
+margin-bottom:99px ;
+margin-right: 20px;
+left:926px;
+position: absolute;
+margin-top: -73px;
+ 
+  /* border: 1px solid aqua; */
+}
+
+.popular-category h6 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F6F6F6;
+  margin-left: 145px;
+}
+
+.line-break {
+  border: 1px solid #BEBCBD;
+  text-align: center;
+}
+
+.down-arrow{
+  font-size: 2px;
+  left:1120px;
+  top:-50px;
+  position:relative
+}
+
+.popular-category h6 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+}
