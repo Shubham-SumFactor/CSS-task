@@ -52,7 +52,7 @@ body, html {
   list-style: none; /* Remove the default bullet points */
   border-radius: 8px;
   background: #F6F6F6;
-  margin: 0 10px 0 0;
+  margin: 0 76px 0 0;
 
 }
 
@@ -114,6 +114,7 @@ body, html {
   line-height: 37.77px;
   letter-spacing: 0.16px;
   text-align: left;
+  margin-top: 120px;
 }
 
 .banner-headline {
@@ -125,6 +126,7 @@ body, html {
   letter-spacing: 0.31px;
   text-align: left;
   display: inline-block;
+  margin-top: -2px;
 }
 
 .line1, .line2 {
@@ -143,6 +145,7 @@ body, html {
   line-height: 47.21px;
   letter-spacing: 0.31px;
   top: 306px;
+  margin-top: -2px;
 }
 
 .shopnowBtn {
@@ -825,7 +828,8 @@ text-align: left;
 .footer-wrapper{
   /* border: 1px solid red ; */
   width: 1235px;
-  height: 900px;
+  /* height: 900px; */
+  height: 663px;
   background: #3C4242;
   margin-left: 50px;
 }
@@ -856,7 +860,7 @@ display: flex;
   text-align: left;
   color: #FFFFFF;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 24px;
 
 }
 
@@ -1049,17 +1053,20 @@ margin-top: -73px;
   text-align: left;
   color: #F6F6F6;
   margin-left: 145px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .line-break {
   border: 1px solid #BEBCBD;
   text-align: center;
+  /* margin:0; */
 }
 
 .down-arrow{
   font-size: 2px;
   left:1120px;
-  top:-50px;
+  top: -35px;
   position:relative
 }
 
